@@ -8,7 +8,7 @@ import java.util.Map;
 
 /**
  * 资源文件读取工具
- *
+ * SpringContext上下文工具类。
  * @author shuzheng
  * @date 2016年10月15日
  */

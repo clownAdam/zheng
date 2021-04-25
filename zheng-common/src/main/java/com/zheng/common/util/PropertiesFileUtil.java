@@ -13,7 +13,7 @@ import java.util.ResourceBundle;
 public class PropertiesFileUtil {
 
     // 当打开多个资源文件时，缓存资源文件
-    private static HashMap<String, PropertiesFileUtil> configMap = new HashMap<String, PropertiesFileUtil>();
+    private static HashMap<String, PropertiesFileUtil> configMap = new HashMap<>();
     // 打开文件时间，判断超时使用
     private Date loadTime = null;
     // 资源文件
